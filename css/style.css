@@ -199,9 +199,11 @@ strong {
 	z-index:2;
 }
 .banner-box-img {
-	position:absolute;
-	right:0;
-	bottom:0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 30%; /* Adjust the size of the image */
+  height: auto; /* Keep the image proportions */
 }
 /*----- indents -----*/
 .img-indent {
